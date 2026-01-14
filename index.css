@@ -1,0 +1,109 @@
+.resolucion{
+    width: 99%;
+    text-align: center;
+}
+
+.t{
+    color: crimson;
+}
+
+.s{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.nombre{
+    text-align: center;
+    color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ub{
+    transition: 0.4s ease-in-out;
+}
+
+.ub:hover{
+    color: rgb(61, 168, 47);
+}
+
+
+/**movil**/
+@media (max-width: 767px){
+    .main{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0,0,0,0.3)), url(images/background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+    }
+
+    .foto{
+        display: flex;
+        place-items: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ru{
+        border-radius: 50%;
+    }
+
+    .mi{
+        display: flex;
+    }
+}
+
+/**tablet**/
+@media (min-width: 768px) and (max-width: 990px){
+    .main{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0,0,0,0.3)), url(images/background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+    }
+    
+    .foto{
+        display: flex;
+        place-items: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ru{
+        border-radius: 50%;
+    }
+
+    .mi{
+        display: flex;
+    }
+
+}
+
+/**escritorio**/
+@media (min-width: 991px){
+    .main{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0,0,0,0.3)), url(images/background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+    }
+
+    .foto{
+        display: flex;
+        place-items: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ru{
+        border-radius: 50%;
+    }
+
+    .mi{
+        display: flex;
+    }
+}
